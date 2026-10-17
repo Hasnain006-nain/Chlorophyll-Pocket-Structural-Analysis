@@ -1,0 +1,4 @@
+Ideal planar formyl probes deviate by as much as 0.94 Å from the real OMB positions: interpret hypothetical-probe results cautiously.
+These three model copies per structure are not independent biological replicates.
+Candidate hydrogen bonds are based on heavy-atom proximity and are not validated by donor-H-acceptor angles.
+Verify A-1 site identities, residue correspondence and scientific verdict against Consoli et al. (Science, 2025).

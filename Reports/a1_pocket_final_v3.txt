@@ -1,0 +1,102 @@
+A-1 pocket analysis (final_v3) - 2026-10-17 10:46 UTC
+Reference 1JB0: chain A length 740, chain B length 739 (expected PsaA ~755, PsaB ~740)
+
+[9EYS] resolution 2.01 A | Chl a/f = 270 (CLA 246, F6C 24) | Met-ligated A0 = 6 | A-1 candidates = 6 | A-1A/A-1B pairs = 3
+
+[9I9L] resolution 1.89 A | Chl a/f = 270 (CLA 246, F6C 24) | Met-ligated A0 = 6 | A-1 candidates = 6 | A-1A/A-1B pairs = 3
+
+Chl f site (A-1B) branch/subunit per copy: ['PsaB', 'PsaB', 'PsaB', 'PsaB', 'PsaB', 'PsaB']   |   Chl a site (A-1A): ['PsaA', 'PsaA', 'PsaA', 'PsaA', 'PsaA', 'PsaA']
+Pigment at A-1A: {'CLA': 6} | at A-1B: {'F6C': 6}
+   9EYS A-1A: C2 pocket identical in all copies: True
+   9EYS A-1B: C2 pocket identical in all copies: True
+   9I9L A-1A: C2 pocket identical in all copies: True
+   9I9L A-1B: C2 pocket identical in all copies: True
+
+[1JB0] resolution 2.50 A | Chl a/f = 96 (CLA 96, F6C 0) | Met-ligated A0 = 2 | A-1 candidates = 2 | A-1A/A-1B pairs = 1
+
+=== PER-SITE MEASUREMENTS ===
+structure  rep site pigment      rid branch  pair_mgmg axial  axial_d  cmb_omb  real_clear    real_near real_rotamer  real_vs_probe_offset  prb_clear prb_side     prb_near  ref_sasa  ref_don33  ref_polar33  n5_cmb  aro_cmb  aro_cmb_d  cys_d  q8  pot12  ring_hphob_frac wat_partners  b_rel_cmb  b_rel_omb                                             pocket
+     9EYS    1 A-1A     CLA A:CLA856   PsaA     18.768 HOH:O    2.034      NaN         NaN          NaN          NaN                   NaN      3.494      C3B B:CLA801:C19       0.0          0            0      13 A:PHE708      5.605 24.658 0.0 -0.091            0.571   ASN592:OD1      0.962        NaN PsaA:PHE708, PsaB:GLY434, PsaB:LEU438, PsaB:LEU532
+     9EYS    1 A-1B     F6C A:F6C802   PsaB     18.768 HOH:O    2.042    1.228       3.304  A:PHE459:CG          C3B                 0.529      3.390      C3B A:PHE459:CD2       0.0          0            0      17 A:PHE459      3.561  7.073 0.0 -0.085            0.500   ASN631:OD1      1.123      1.403                           PsaA:PHE459, PsaA:PHE571
+     9EYS    2 A-1A     CLA O:CLA802   PsaA     18.752 HOH:O    2.046      NaN         NaN          NaN          NaN                   NaN      3.572      C3B O:CLA801:C19       0.0          0            0      14 N:PHE708      5.646 24.530 0.0 -0.091            0.571   ASN592:OD1      0.954        NaN PsaA:PHE708, PsaB:GLY434, PsaB:LEU438, PsaB:LEU532
+     9EYS    2 A-1B     F6C N:F6C802   PsaB     18.752 HOH:O    2.020    1.228       3.203 N:PHE459:CD2          C3B                 0.537      3.319      C3B N:PHE459:CD2       0.0          0            0      17 N:PHE459      3.529  7.080 0.0 -0.084            0.500   ASN631:OD1      1.126      1.419                           PsaA:PHE459, PsaA:PHE571
+     9EYS    3 A-1A     CLA b:CLA802   PsaA     18.776 HOH:O    2.035      NaN         NaN          NaN          NaN                   NaN      3.513      C3B b:CLA801:C19       0.0          0            0      14 a:PHE708      5.653 24.523 0.0 -0.091            0.571   ASN592:OD1      0.975        NaN PsaA:PHE708, PsaB:GLY434, PsaB:LEU438, PsaB:LEU532
+     9EYS    3 A-1B     F6C a:F6C802   PsaB     18.776 HOH:O    2.040    1.228       3.210 a:PHE459:CD2          C3B                 0.543      3.319      C3B a:PHE459:CD2       0.0          0            0      18 a:PHE459      3.505  7.094 0.0 -0.085            0.500   ASN631:OD1      1.121      1.424                           PsaA:PHE459, PsaA:PHE571
+     9I9L    1 A-1A     CLA B:CLA802   PsaA     18.853 HOH:O    2.052      NaN         NaN          NaN          NaN                   NaN      3.505      C3B B:CLA801:C19       0.0          0            0      13 A:PHE708      5.638 24.755 0.0 -0.087            0.571   ASN592:OD1      0.977        NaN PsaA:PHE708, PsaB:GLY434, PsaB:LEU438, PsaB:LEU532
+     9I9L    1 A-1B     F6C A:F6C802   PsaB     18.853 HOH:O    2.077    1.228       3.055  A:PHE459:CG          C3B                 0.925      3.441      C3B A:PHE459:CD2       0.0          0            0      17 A:PHE459      3.602  7.126 0.0 -0.086            0.500   ASN631:OD1      1.079      1.417                           PsaA:PHE459, PsaA:PHE571
+     9I9L    2 A-1A     CLA O:CLA802   PsaA     18.846 HOH:O    2.059      NaN         NaN          NaN          NaN                   NaN      3.489      C3B O:CLA801:C19       0.0          0            0      15 N:PHE708      5.614 24.713 0.0 -0.091            0.571   ASN592:OD1      0.949        NaN PsaA:PHE708, PsaB:GLY434, PsaB:LEU438, PsaB:LEU532
+     9I9L    2 A-1B     F6C N:F6C802   PsaB     18.846 HOH:O    2.072    1.228       3.026  N:PHE459:CG          C3B                 0.942      3.383      C3B N:PHE459:CD2       0.0          0            0      17 N:PHE459      3.597  7.185 0.0  0.000            0.429   ASN631:OD1      1.124      1.497                           PsaA:PHE459, PsaA:PHE571
+     9I9L    3 A-1A     CLA b:CLA802   PsaA     18.852 HOH:O    2.057      NaN         NaN          NaN          NaN                   NaN      3.473      C3B b:CLA801:C19       0.0          0            0      14 a:PHE708      5.663 24.695 0.0 -0.091            0.571   ASN592:OD1      0.929        NaN PsaA:PHE708, PsaB:GLY434, PsaB:LEU438, PsaB:LEU532
+     9I9L    3 A-1B     F6C a:F6C802   PsaB     18.852 HOH:O    2.078    1.228       2.983  a:PHE459:CG          C3B                 0.922      3.342      C3B a:PHE459:CD2       0.0          0            0      17 a:PHE459      3.557  7.160 0.0  0.000            0.500   ASN631:OD1      1.100      1.449                           PsaA:PHE459, PsaA:PHE571
+
+=== A-1B minus A-1A (per structure and pooled) ===
+structure                                                  label  A1A_mean  A1A_sd  A1B_mean  A1B_sd   delta  n_pos  n_neg                call
+     9EYS     Formyl-O clearance, planar probe at both sites (A)     3.526   0.041     3.343   0.041  -0.184      0      3         A-1B < A-1A
+     9I9L     Formyl-O clearance, planar probe at both sites (A)     3.489   0.016     3.389   0.049  -0.100      0      3         A-1B < A-1A
+      ALL     Formyl-O clearance, planar probe at both sites (A)     3.508   0.035     3.366   0.048  -0.142      0      6         A-1B < A-1A
+     9EYS Formyl-O clearance, real OMB (A-1B) / probe (A-1A) (A)     3.526   0.041     3.239   0.056  -0.287      0      3         A-1B < A-1A
+     9I9L Formyl-O clearance, real OMB (A-1B) / probe (A-1A) (A)     3.489   0.016     3.021   0.036  -0.468      0      3         A-1B < A-1A
+      ALL Formyl-O clearance, real OMB (A-1B) / probe (A-1A) (A)     3.508   0.035     3.130   0.127  -0.377      0      6         A-1B < A-1A
+     9EYS                 Formyl-O solvent-accessible area (A^2)     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9I9L                 Formyl-O solvent-accessible area (A^2)     0.000   0.000     0.000   0.000   0.000      0      0           identical
+      ALL                 Formyl-O solvent-accessible area (A^2)     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9EYS                      H-bond donors <=3.3 A of formyl O     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9I9L                      H-bond donors <=3.3 A of formyl O     0.000   0.000     0.000   0.000   0.000      0      0           identical
+      ALL                      H-bond donors <=3.3 A of formyl O     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9EYS                    Polar N/O atoms <=3.3 A of formyl O     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9I9L                    Polar N/O atoms <=3.3 A of formyl O     0.000   0.000     0.000   0.000   0.000      0      0           identical
+      ALL                    Polar N/O atoms <=3.3 A of formyl O     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9EYS              Heavy atoms <=5 A of C2 substituent (CMB)    13.667   0.577    17.333   0.577   3.667      3      0         A-1B > A-1A
+     9I9L              Heavy atoms <=5 A of C2 substituent (CMB)    14.000   1.000    17.000   0.000   3.000      3      0         A-1B > A-1A
+      ALL              Heavy atoms <=5 A of C2 substituent (CMB)    13.833   0.753    17.167   0.408   3.333      6      0         A-1B > A-1A
+     9EYS              Nearest aromatic-ring centroid to CMB (A)     5.635   0.025     3.532   0.028  -2.103      0      3         A-1B < A-1A
+     9I9L              Nearest aromatic-ring centroid to CMB (A)     5.638   0.025     3.586   0.025  -2.053      0      3         A-1B < A-1A
+      ALL              Nearest aromatic-ring centroid to CMB (A)     5.636   0.022     3.559   0.038  -2.078      0      6         A-1B < A-1A
+     9EYS                               Nearest Cys S to CMB (A)    24.570   0.076     7.082   0.010 -17.488      0      3         A-1B < A-1A
+     9I9L                               Nearest Cys S to CMB (A)    24.721   0.031     7.157   0.030 -17.564      0      3         A-1B < A-1A
+      ALL                               Nearest Cys S to CMB (A)    24.646   0.097     7.119   0.045 -17.526      0      6         A-1B < A-1A
+     9EYS                            Net charge <=8 A of CMB (e)     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9I9L                            Net charge <=8 A of CMB (e)     0.000   0.000     0.000   0.000   0.000      0      0           identical
+      ALL                            Net charge <=8 A of CMB (e)     0.000   0.000     0.000   0.000   0.000      0      0           identical
+     9EYS                 Sum q/r of charged groups <=12 A (e/A)    -0.091   0.000    -0.084   0.000   0.007      3      0         A-1B > A-1A
+     9I9L                 Sum q/r of charged groups <=12 A (e/A)    -0.090   0.002    -0.029   0.050   0.061      3      0 not distinguishable
+      ALL                 Sum q/r of charged groups <=12 A (e/A)    -0.090   0.002    -0.057   0.044   0.034      6      0 not distinguishable
+     9EYS      Hydrophobic fraction of macrocycle pocket (4.5 A)     0.571   0.000     0.500   0.000  -0.071      0      3         A-1B < A-1A
+     9I9L      Hydrophobic fraction of macrocycle pocket (4.5 A)     0.571   0.000     0.476   0.041  -0.095      0      3         A-1B < A-1A
+      ALL      Hydrophobic fraction of macrocycle pocket (4.5 A)     0.571   0.000     0.488   0.029  -0.083      0      6         A-1B < A-1A
+     9EYS                         Mg - axial ligand distance (A)     2.038   0.007     2.034   0.012  -0.004      2      1 not distinguishable
+     9I9L                         Mg - axial ligand distance (A)     2.056   0.003     2.076   0.003   0.019      3      0         A-1B > A-1A
+      ALL                         Mg - axial ligand distance (A)     2.047   0.011     2.055   0.024   0.007      5      1 not distinguishable
+     9EYS                         H-bond partners of axial water     1.000   0.000     1.000   0.000   0.000      0      0           identical
+     9I9L                         H-bond partners of axial water     1.000   0.000     1.000   0.000   0.000      0      0           identical
+      ALL                         H-bond partners of axial water     1.000   0.000     1.000   0.000   0.000      0      0           identical
+     9EYS                            B(CMB) / B(macrocycle core)     0.964   0.011     1.123   0.002   0.160      3      0         A-1B > A-1A
+     9I9L                            B(CMB) / B(macrocycle core)     0.952   0.024     1.101   0.022   0.149      3      0         A-1B > A-1A
+      ALL                            B(CMB) / B(macrocycle core)     0.958   0.018     1.112   0.019   0.154      6      0         A-1B > A-1A
+
+=== WHITE-LIGHT CONTROL (1JB0) ===
+site pigment       rid branch  prb_clear  n5_cmb  aro_cmb_d  ref_sasa  ref_polar33                                pocket
+A-1A     CLA B:CLA1012   PsaA      3.509      14      5.350       0.0            0 PsaA:PHE681, PsaB:LEU437, PsaB:LEU531
+A-1B     CLA A:CLA1022   PsaB      3.367      17      3.422       0.0            0              PsaA:PHE456, PsaA:PHE544
+
+=== EVIDENCE ===
+1. STERIC EXCLUSION of Chl f at A-1A?  Planar formyl O would sit 3.51 A (min 3.47) from the nearest protein/water atom (clash <3.0 A). -> NO, A-1A can accommodate a formyl O.
+   Real OMB at A-1B: 3.13 A (min 2.98); short contacts flagged in 1/6 copies (a:PHE459:CG).
+2. H-BOND to formyl O?  Donors <=3.3 A: A-1B 0.00/copy, A-1A(probe) 0.00/copy. -> none - formyl is not H-bonded at either site.
+3. PACKING / AROMATIC CONTACT at C2 substituent: heavy atoms <=5 A of CMB A-1A 13.8 vs A-1B 17.2 (A-1B > A-1A); nearest aromatic centroid A-1A 5.64 A vs A-1B 3.56 A (A-1B < A-1A); formyl-O exposure A-1A 0.0 vs A-1B 0.0 A^2 (identical).
+4. ELECTROSTATICS: net charge <=8 A A-1A +0.0 vs A-1B +0.0; sum q/r -0.090 vs -0.057 -> no discriminating difference.
+5. Mg COORDINATION: axial HOH:O (A-1A) vs HOH:O (A-1B); Mg-O 2.05 vs 2.05 A; water H-bond partners 1.0 vs 1.0 (identical).
+6. WHOLE-MACROCYCLE POCKET: hydrophobic fraction 0.57 vs 0.49 (A-1B < A-1A).
+7. WHITE-LIGHT CONTROL (1JB0, same branches): n5 14 vs 17; aromatic 5.35 vs 3.42 A; probe clearance 3.51 vs 3.37 A -> asymmetry in the same direction as far-red PSI: YES (partly pre-existing).
+   Pocket substitutions vs WL at A-1A: none
+   Pocket substitutions vs WL at A-1B: none
+
+=== VERDICT ===
+PARTLY - the pockets differ (tighter, aromatic-lined at A-1B) in a way consistent with preferential stabilisation of a C2-formyl at A-1B, but A-1A is NOT sterically/electrostatically incompatible with Chl f, so the static structure alone does not 'explain' exclusion.
+
+=== CAVEATS ===
+- The 3 'replicates' are non-crystallographic copies inside one cryo-EM model: they show model consistency, NOT independent biological replicates; no p-values are claimed.
+- Geometry is static and heavy-atom only (no H, no dynamics, no energetics). Bond lengths such as CMB=OMB 1.228 A come from the ligand dictionary, not from the data.
+- Chl a vs Chl f assignment rests on map density (ESP) and spectra in the source paper; the model cannot prove Chl f is absent at A-1A.
+- The WL control (1JB0, T. elongatus) is a different species; substitutions mix species divergence with far-red adaptation. Prefer a WL PsaA/PsaB from the same organism if available.
+- A full mechanistic answer needs binding-energy calculations (QM/MM or free energy), mutagenesis, or a Chl f-synthase/assembly argument - not geometry alone.

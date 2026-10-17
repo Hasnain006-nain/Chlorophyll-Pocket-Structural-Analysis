@@ -1,0 +1,35 @@
+{
+  "backup_folder": "/content/drive/MyDrive/Rabia..Australia/Old_Version_Backup/Before_FINAL_v3_20261017T104635Z_51016d",
+  "backed_up_files": 11,
+  "activated_files": [
+    "Figures/a1_pocket_final_v3.pdf",
+    "Figures/a1_pocket_final_v3.png",
+    "Tables/a1_pocket_final_v3_contrasts.csv",
+    "Tables/a1_pocket_final_v3_pocket_substitutions.csv",
+    "Tables/a1_pocket_final_v3_sites.csv",
+    "Reports/a1_pocket_final_v3.txt",
+    "Reports/a1_pocket_final_v3_review_notes.txt",
+    "Logs/a1_pocket_final_v3_manifest.json",
+    "Structures/1jb0.cif"
+  ],
+  "manifest": {
+    "tag": "final_v3",
+    "run_id": "20261017T104635Z_51016d",
+    "timestamp_utc": "2026-10-17T10:47:03.582418+00:00",
+    "structures": [
+      "9EYS",
+      "9I9L"
+    ],
+    "n_far_red_sites": 12,
+    "n_contrast_rows": 42,
+    "white_light_requested": true,
+    "white_light_completed": true,
+    "passed_automated_checks": true,
+    "scientific_review_notes": [
+      "Ideal planar formyl probes deviate by as much as 0.94 \u00c5 from the real OMB positions: interpret hypothetical-probe results cautiously.",
+      "These three model copies per structure are not independent biological replicates.",
+      "Candidate hydrogen bonds are based on heavy-atom proximity and are not validated by donor-H-acceptor angles.",
+      "Verify A-1 site identities, residue correspondence and scientific verdict against Consoli et al. (Science, 2025)."
+    ]
+  }
+}
