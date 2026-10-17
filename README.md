@@ -323,7 +323,7 @@ If you use this codebase, structural metrics, or analysis pipeline in your resea
 
 ```bibtex
 @software{haider2026chlorophyll,
-  author       = {Hasnain Haider},
+  author       = { Rabia and Hasnain Haider},
   title        = {Chlorophyll-Pocket-Structural-Analysis: Quantitative Microenvironment Analysis of Far-Red Light Photosystem I},
   year         = {2026},
   publisher    = {GitHub},
